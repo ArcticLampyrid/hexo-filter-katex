@@ -1,0 +1,29 @@
+{
+  "name": "hexo-filter-katex",
+  "version": "1.0.0",
+  "description": "Server side Math Expression Renderer for Hexo, powered by Katex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcticLampyrid/hexo-filter-katex.git"
+  },
+  "keywords": [
+    "math",
+    "hexo",
+    "katex",
+    "hexo-filter",
+    "hexo-render"
+  ],
+  "author": "ArcticLampyrid <arcticlampyrid@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArcticLampyrid/hexo-filter-katex/issues"
+  },
+  "homepage": "https://github.com/ArcticLampyrid/hexo-filter-katex#readme",
+  "dependencies": {
+    "katex": "^0.15.3"
+  }
+}
