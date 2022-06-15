@@ -75,7 +75,7 @@ const convertMath = (content) => {
 }
 hexo.extend.filter.register('before_post_render', function (data) {
     data.content = convertMath(data.content);
-});
+}, 9);
 hexo.extend.tag.register('_internal_math_placeholder', function (args) {
     const id = Number.parseInt(args[0], 10);
     return fragment[id];

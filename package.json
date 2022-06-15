@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-katex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Server side Math Expression Renderer for Hexo, powered by Katex.",
   "main": "index.js",
   "scripts": {
